@@ -1,0 +1,97 @@
+/*Jiovani Abonza 5/13/25*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+dl {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+
+@media (max-width: 768px) {/* The responsive design */
+    body {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    dl {
+        padding: 15px;
+    }
+    dt {
+        font-size: 1.1em;
+    }
+    dd {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+     h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    dl {
+        padding: 10px;
+    }
+    dt {
+        font-size: 1em;
+    }
+    dd {
+        font-size: 0.8em;
+    }
+}
