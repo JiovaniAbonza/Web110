@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Jiovani Abonza  5/13/2025 -->
+<!-- Form page Contact Me -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        /* Embedded form styles */
+        form {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="idea.html">Idea</a></li>
+                    <li><a href="issues.html">Challenges</a></li>
+                    <li><a href="form.html">Contact</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Reach out</h2>
+            <p>Have a question, use this form.</p>
+
+            <!-- Full form with all required fields -->
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <label>What are you interested in?</label>
+                <input type="checkbox" id="web" name="interest" value="web">
+                <label for="web">Web Development</label><br>
+                <input type="checkbox" id="ai" name="interest" value="ai">
+                <label for="ai">AI & Tech</label><br>
+
+                <label>How did you find me?</label>
+                <input type="radio" id="search" name="source" value="search">
+                <label for="search">Search Engine</label><br>
+                <input type="radio" id="friend" name="source" value="friend">
+                <label for="friend">Friend</label><br>
+
+                <label for="date">What Contact Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="select">Best way to reach you:</label>
+                <select id="select" name="contact">
+                    <option value="email">Email</option><!--All the options -->
+                    <option value="phone">Phone</option>
+                    <option value="text">Text</option>
+                </select>
+
+                <input type="submit" value="Submit"><!--Turn in -->
+                <input type="reset" value="Reset">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Jiovani | <a href="mailto:jiovani7206@gmail.com">Email Me</a></p>
+        </footer>
+    </div>
+</body>
+</html>
